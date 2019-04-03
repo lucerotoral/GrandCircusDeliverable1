@@ -93,6 +93,8 @@ namespace GrandCircusDeliverable1
             Console.WriteLine("   • Japanese: " + totalAmount.ToString("c", CultureInfo.GetCultureInfo("ja-JP")));
             Console.WriteLine("   • Thai: ‎" + totalAmount.ToString("c", CultureInfo.GetCultureInfo("th-TH")));
 
+            Console.ReadKey();
+
         }
     }
 }
